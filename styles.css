@@ -121,5 +121,9 @@ footer.site h4{color:#fff;font-family:"Montserrat",sans-serif;font-size:17px;mar
 footer.site li{list-style:none;padding:3px 0}footer.site a:hover{color:#fff}
 footer.site .legal{border-top:1px solid #2b2224;margin-top:34px;padding-top:18px;font-size:12.5px;color:#8f7f82}
 .sticky-cta{display:none}
+nav.mob{display:none}
+@media(max-width:1120px){nav.mob{display:flex;gap:6px;overflow-x:auto;padding:9px 14px;background:#fff;border-bottom:1px solid var(--line);white-space:nowrap;scrollbar-width:none}nav.mob::-webkit-scrollbar{display:none}nav.mob a{flex:0 0 auto;padding:7px 13px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;font-weight:600;color:#3d3436;background:#f8f5f5}nav.mob a.on{background:var(--acc);border-color:var(--acc);color:#fff}}
+.comstrip{display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}@media(max-width:900px){.comstrip{grid-template-columns:1fr}}.comstrip>*{min-width:0}
+.quote{background:#2a2224;border:1px solid #3a3133;border-radius:14px;padding:22px;margin-bottom:12px}.quote p{color:#f1e7e8!important;font-size:15.5px}.quote .who{color:#f0a9b6;font-size:13px;font-weight:700;margin-top:10px}
 @media(max-width:760px){.sticky-cta{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:60;gap:8px;padding:10px;background:rgba(19,14,15,.97);border-top:1px solid #3a3133}
 .sticky-cta a{flex:1;text-align:center;padding:13px 10px}body{padding-bottom:70px}}
